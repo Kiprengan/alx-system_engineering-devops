@@ -9,7 +9,7 @@ if [ "$#" -eq 2 ]
 then
     subdomaininfo "$2.$1" "$2"
 else
-    subdomaininfo "www.$1" "lb-01"
+    subdomaininfo "www.$1" "18.207.233.54"
     subdomaininfo "lb-01.$1" "18.207.233.54"
     subdomaininfo "web-01.$1" "52.91.122.124"
     subdomaininfo "web-02.$1" "34.202.159.85"

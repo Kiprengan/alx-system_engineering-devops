@@ -9,8 +9,8 @@ if [ "$#" -eq 2 ]
 then
     prnt "$2.$1" "$2"
 else
-    prnt "www.$1" "lb-01"
-    prnt "lb-01.$1" "lb-01"
+    prnt "www.$1" "www"
+prnt "lb-01.$1" "lb-01"
     prnt "web-01.$1" "web-01"
     prnt "web-02.$1" "web-02"
 fi
